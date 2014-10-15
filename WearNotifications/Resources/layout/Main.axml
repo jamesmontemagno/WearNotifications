@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Big Notification" />
+        <Button
+            android:id="@+id/notification_action"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Notificaton with Action" />
+        <Button
+            android:id="@+id/notification_wear_action"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear Only Action" />
+        <Button
+            android:id="@+id/notification_wear_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear Background" />
+        <Button
+            android:id="@+id/notification_wear_pages"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear Pages" />
+        <Button
+            android:id="@+id/notification_wear_stacked"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear Stacked" />
+        <Button
+            android:id="@+id/notification_wear_voice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear Voice!" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+</ScrollView>
